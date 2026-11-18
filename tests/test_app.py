@@ -48,3 +48,23 @@ class SalesLabTests(unittest.TestCase):
         self.assertFalse(app.exception)
         self.assertIn("No products selected", app.info[0].value)
         self.assertEqual(len(app.dataframe), 0)
+
+    def test_playground_widgets_update_preview_and_show_feedback(self):
+        app = AppTest.from_file(str(APP)).run()
+        app.switch_page("app_pages/component_playground.py").run()
+        self.assertFalse(app.exception)
+        self.assertEqual(app.title[0].value, "Component Playground")
+
+        app.selectbox(key="playground_region").select("West")
+        app.slider(key="playground_quantity").set_value(7)
+        app.toggle(key="playground_show_detail").set_value(True)
+        app.run()
+        self.assertIn("Preview: 7 units for West.", [item.value for item in app.info])
+        self.assertIn(
+            "Detail: this preview is for the West region.",
+            [item.value for item in app.markdown],
+        )
+
+        app.button(key="playground_hello").click().run()
+        self.assertFalse(app.exception)
+        self.assertIn("Hello! The button was clicked.", [item.value for item in app.success])
