@@ -1,0 +1,55 @@
+date,region,product,quantity,revenue
+2025-01-08,North,Notebook,26,208.00
+2025-01-08,North,Pen Set,16,192.00
+2025-01-08,North,Desk Lamp,9,315.00
+2025-01-15,South,Notebook,19,152.00
+2025-01-15,South,Pen Set,23,276.00
+2025-01-15,South,Desk Lamp,13,455.00
+2025-01-22,West,Notebook,22,176.00
+2025-01-22,West,Pen Set,14,168.00
+2025-01-22,West,Desk Lamp,18,630.00
+2025-02-08,North,Notebook,29,232.00
+2025-02-08,North,Pen Set,17,204.00
+2025-02-08,North,Desk Lamp,11,385.00
+2025-02-15,South,Notebook,21,168.00
+2025-02-15,South,Pen Set,25,300.00
+2025-02-15,South,Desk Lamp,14,490.00
+2025-02-22,West,Notebook,20,160.00
+2025-02-22,West,Pen Set,16,192.00
+2025-02-22,West,Desk Lamp,17,595.00
+2025-03-08,North,Notebook,35,280.00
+2025-03-08,North,Pen Set,22,264.00
+2025-03-08,North,Desk Lamp,10,350.00
+2025-03-15,South,Notebook,24,192.00
+2025-03-15,South,Pen Set,28,336.00
+2025-03-15,South,Desk Lamp,12,420.00
+2025-03-22,West,Notebook,27,216.00
+2025-03-22,West,Pen Set,19,228.00
+2025-03-22,West,Desk Lamp,21,735.00
+2025-04-08,North,Notebook,32,256.00
+2025-04-08,North,Pen Set,24,288.00
+2025-04-08,North,Desk Lamp,13,455.00
+2025-04-15,South,Notebook,22,176.00
+2025-04-15,South,Pen Set,31,372.00
+2025-04-15,South,Desk Lamp,16,560.00
+2025-04-22,West,Notebook,30,240.00
+2025-04-22,West,Pen Set,18,216.00
+2025-04-22,West,Desk Lamp,24,840.00
+2025-05-08,North,Notebook,41,328.00
+2025-05-08,North,Pen Set,26,312.00
+2025-05-08,North,Desk Lamp,12,420.00
+2025-05-15,South,Notebook,26,208.00
+2025-05-15,South,Pen Set,34,408.00
+2025-05-15,South,Desk Lamp,15,525.00
+2025-05-22,West,Notebook,34,272.00
+2025-05-22,West,Pen Set,21,252.00
+2025-05-22,West,Desk Lamp,20,700.00
+2025-06-08,North,Notebook,46,368.00
+2025-06-08,North,Pen Set,29,348.00
+2025-06-08,North,Desk Lamp,15,525.00
+2025-06-15,South,Notebook,28,224.00
+2025-06-15,South,Pen Set,32,384.00
+2025-06-15,South,Desk Lamp,18,630.00
+2025-06-22,West,Notebook,38,304.00
+2025-06-22,West,Pen Set,23,276.00
+2025-06-22,West,Desk Lamp,27,945.00
